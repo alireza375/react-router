@@ -1,11 +1,13 @@
 import React from 'react';
-import { useLoaderData, useNavigate } from 'react-router-dom';
+import { useLoaderData, useNavigate, useParams } from 'react-router-dom';
 import './PostDetails.css';
 
 const PostDetails = () => {
     const post = useLoaderData();
     const {id, userId, title, body} = post;
 
+    const {postId} = useParams();
+    console.log(postId);
     const navigate = useNavigate();
 
     const handleGoBack = () => {
@@ -13,7 +15,7 @@ const PostDetails = () => {
     }
     return (
         <div className='post-details'>
-             <p><b>ID:</b> {id}</p>
+             <p><b>Post details about:</b> {id}</p>
             <p><b>User Id:</b>{userId}</p>
             <p><b>Title:</b> {title}</p>
             <p><b>Body:</b> {body}</p>
