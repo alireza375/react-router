@@ -1,0 +1,10 @@
+.user-details {
+    border: 4px dashed purple;
+    padding: 5px;
+    padding-left: 20px;
+    margin: 5px;
+    text-align: left;
+    border-radius: 5px;
+    font-weight: bold;
+    color: tomato;
+}
