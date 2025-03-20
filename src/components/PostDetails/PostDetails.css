@@ -1,0 +1,15 @@
+.post-details {
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid aqua;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: left;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    display: grid;
+}

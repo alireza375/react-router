@@ -15,6 +15,9 @@ const UserDetails = () => {
                 <p>Phone: {phone}</p>
                 <p>Username: {username}</p>
                 <p>Website: {website}</p>
+                {/* <p>Company: {company?.name}</p>
+                <p>Company: {company?.bs}</p> */}
+                <p></p>
             </div>
         </div>
     );
